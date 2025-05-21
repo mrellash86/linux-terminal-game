@@ -1,0 +1,21 @@
+{
+  "name": "linux-terminal-game",
+  "version": "1.0.0",
+  "description": "A mock terminal game where users respond to definitions and receive feedback.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src"
+  },
+  "keywords": [
+    "game",
+    "terminal",
+    "linux",
+    "javascript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

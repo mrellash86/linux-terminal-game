@@ -1,0 +1,752 @@
+[
+    {
+        "definition": "A file that sets the time zone for Red Hat-based Linux systems.",
+        "answer": "/etc/localtime",
+        "incorrectExplanation": "This is a file that sets the time zone for Red Hat-based Linux systems. Think about the name of this specific timezone configuration file."
+    },
+    {
+        "definition": "A dynamic file that identifies the currently mounted partitions on the Linux system.",
+        "answer": "/etc/mtab",
+        "incorrectExplanation": "This is a dynamic file identifying currently mounted partitions. Think about the name of this mount table file."
+    },
+    {
+        "definition": "A file that sets the time zone for Debian-based Linux systems.",
+        "answer": "/etc/timezone",
+        "incorrectExplanation": "This is a file that sets the time zone for Debian-based Linux systems. Think about the name of this timezone configuration file for Debian systems."
+    },
+    {
+        "definition": "A kernel-generated file that contains information about the currently mounted partitions and their location in the virtual directory.",
+        "answer": "/proc/mounts",
+        "incorrectExplanation": "This is a kernel-generated file with information on mounted partitions and their virtual directory locations. Think about the name of this proc filesystem entry."
+    },
+    {
+        "definition": "A kernel-generated file that contains information about the currently mounted partitions on the Linux system.",
+        "answer": "/proc/partitions",
+        "incorrectExplanation": "This is a kernel-generated file with information on mounted partitions. Think about the name of this proc filesystem entry detailing partitions."
+    },
+    {
+        "definition": "A kernel-generated file that contains information about the block devices on the Linux system, including any mounted partitions.",
+        "answer": "/sys/block",
+        "incorrectExplanation": "This is a kernel-generated file with information about block devices. Think about the name of this sysfs directory related to block devices."
+    },
+    {
+        "definition": "A file that contains template time zone files for all time zones.",
+        "answer": "/usr/share/zoneinfo",
+        "incorrectExplanation": "This directory contains template time zone files. Think about the standard path for zone information files."
+    },
+    {
+        "definition": "A suite of tools used that allow you to install, query, and remove package files from a Debian-based package management system from a central package repository.",
+        "answer": "apt",
+        "incorrectExplanation": "This is a suite of tools for Debian-based package management. Think about the common name for this advanced packaging tool."
+    },
+    {
+        "definition": "A program that can query and interact with a Debian-based package management system.",
+        "answer": "apt-cache",
+        "incorrectExplanation": "This program queries and interacts with the Debian package management system's cache. Think about the name of this apt utility for cache operations."
+    },
+    {
+        "definition": "A program that can install, update, or remove packages in a Debian-based package management system from a central repository.",
+        "answer": "apt-get",
+        "incorrectExplanation": "This program installs, updates, or removes packages in a Debian-based system. Think about the name of this command-line tool for apt."
+    },
+    {
+        "definition": "The file extension used to identify package files following the Debian-based package management format.",
+        "answer": ".deb",
+        "incorrectExplanation": "This is the file extension for Debian package files. Think about what you call files with this extension."
+    },
+    {
+        "definition": "The file extension used to identify files that have been archived using the tar program and compressed using the gzip program.",
+        "answer": ".tgz",
+        "incorrectExplanation": "This file extension identifies files archived with tar and compressed with gzip. Think about what you call files with this extension, also known as .tar.gz."
+    },
+    {
+        "definition": "A folder that contains persistent links to storage device partitions based on their manufacturer information.",
+        "answer": "/dev/disk/by-id",
+        "incorrectExplanation": "This folder contains persistent links to storage partitions based on manufacturer ID. Think about the path used for identifying disks by their hardware ID."
+    },
+    {
+        "definition": "A folder that contains persistent links to storage device partitions based on their label.",
+        "answer": "/dev/disk/by-label",
+        "incorrectExplanation": "This folder contains persistent links to storage partitions based on their label. Think about the path used for identifying disks by their assigned label."
+    },
+    {
+        "definition": "A folder that contains persistent links to storage device partitions based on their hardware connection.",
+        "answer": "/dev/disk/by-path",
+        "incorrectExplanation": "This folder contains persistent links to storage partitions based on their hardware connection path. Think about the path used for identifying disks by their physical connection path."
+    },
+    {
+        "definition": "A folder that contains persistent links to storage device partitions based on their universal unique identifier.",
+        "answer": "/dev/disk/by-uuid",
+        "incorrectExplanation": "This folder contains persistent links to storage partitions based on their UUID. Think about the path used for identifying disks by their universally unique identifier."
+    },
+    {
+        "definition": "A folder that contains raw device files that point to dynamic and virtual partitions created by LVM and multipath.",
+        "answer": "/dev/mapper",
+        "incorrectExplanation": "This folder contains device files for LVM and multipath virtual partitions. Think about the directory name for these mapped devices."
+    },
+    {
+        "definition": "A configuration file that contains entries identifying encrypted storage device partitions Linux should mount at boot time.",
+        "answer": "/etc/crypttab",
+        "incorrectExplanation": "This configuration file identifies encrypted partitions to be mounted at boot. Think about the name of this table for cryptographic devices."
+    },
+    {
+        "definition": "A configuration file that contains entries identifying the storage device partitions Linux should mount at boot time.",
+        "answer": "/etc/fstab",
+        "incorrectExplanation": "This configuration file identifies storage partitions to mount at boot time. Think about the name of this file system table."
+    },
+    {
+        "definition": "File used by the SysVinit startup method to determine the default runlevel for a system.",
+        "answer": "/etc/init.d",
+        "incorrectExplanation": "This directory is used by SysVinit for startup scripts and determining the default runlevel. Think about the name of this initialization scripts directory."
+    },
+    {
+        "definition": "A utility in the e2fsprogs package that displays information about block devices, such as storage drives.",
+        "answer": "blkid",
+        "incorrectExplanation": "This utility displays information about block devices. Think about the name of this command for block device identification."
+    },
+    {
+        "definition": "A shell command that restarts a paused job in background mode.",
+        "answer": "bg",
+        "incorrectExplanation": "This shell command restarts a paused job in the background. Think about the name of this background job control command."
+    },
+    {
+        "definition": "The open source application that provides DNS server capabilities.",
+        "answer": "BIND",
+        "incorrectExplanation": "This open-source application provides DNS server capabilities. Think about the common name for the Berkeley Internet Name Domain software."
+    },
+    {
+        "definition": "A command-line program for delivering and viewing local mail.",
+        "answer": "binmail",
+        "incorrectExplanation": "This command-line program is for delivering and viewing local mail, often found in /usr/bin/mail. Think about a common name for this mail program."
+    },
+    {
+        "definition": "A command-line command that allows the system administrator to define password expiration settings for users.",
+        "answer": "chage",
+        "incorrectExplanation": "This command allows defining password expiration settings. Think about the name of this command related to changing password aging information."
+    },
+    {
+        "definition": "A command-line utility for displaying and modifying information in an xfs filesystem.",
+        "answer": "xfs_admin",
+        "incorrectExplanation": "This command-line utility displays and modifies XFS filesystem information. Think about the name of this XFS administration tool."
+    },
+    {
+        "definition": "A command-line utility for displaying information from an xfs filesystem.",
+        "answer": "xfs_info",
+        "incorrectExplanation": "This command-line utility displays information from an XFS filesystem. Think about the name of this tool for getting XFS information."
+    },
+    {
+        "definition": "A program that installs, updates, and removes package files from a Red Hat-based package management system repository.",
+        "answer": "yum",
+        "incorrectExplanation": "This program manages packages on Red Hat-based systems. Think about the name of this Yellowdog Updater, Modified."
+    },
+    {
+        "definition": "The Zettabyte Filesystem, created by Sun Microsystems for Unix workstations.",
+        "answer": "ZFS",
+        "incorrectExplanation": "This is the Zettabyte Filesystem from Sun Microsystems. Think about the acronym for this advanced filesystem."
+    },
+    {
+        "definition": "A command that iterates through a block of commands until a test condition evaluates to a True logical value.",
+        "answer": "until command",
+        "incorrectExplanation": "This command iterates a block of commands as long as a condition is false (or until it's true). Think about the name of this loop structure."
+    },
+    {
+        "definition": "A command-line command that allows the administrator to set restrictions on system resources for users.",
+        "answer": "ulimit",
+        "incorrectExplanation": "This command sets restrictions on system resources for users. Think about the name of this user limit control command."
+    },
+    {
+        "definition": "A command-line command that defines the default permissions used when creating files and directories.",
+        "answer": "umask",
+        "incorrectExplanation": "This command defines default file and directory permissions. Think about the name of this user file creation mask command."
+    },
+    {
+        "definition": "A command-line utility for removing a partition file system from the Linux virtual directory structure.",
+        "answer": "umount",
+        "incorrectExplanation": "This utility removes a partition filesystem from the virtual directory. Think about the command to unmount filesystems."
+    },
+    {
+        "definition": "An international character set standard that uses 3 bytes to store characters for most languages.",
+        "answer": "Unicode",
+        "incorrectExplanation": "This international character set standard uses multiple bytes for characters. Think about the name of this universal character encoding standard."
+    },
+    {
+        "definition": "A utility in the e2fsprogs package that allows you to change parameters of ext filesystems.",
+        "answer": "tune2fs",
+        "incorrectExplanation": "This utility changes parameters of ext filesystems. Think about the name of this tool for tuning ext2/3/4 filesystems."
+    },
+    {
+        "definition": "A command that displays the amount of system time and elapsed time used by an applicati",
+        "answer": "time",
+        "incorrectExplanation": "This command displays system and elapsed time used by an application. Think about the name of this command for timing processes."
+    },
+    {
+        "definition": "A command that sets the system time and date on systemd systems.",
+        "answer": "timedatectl",
+        "incorrectExplanation": "This command sets the system time and date on systemd systems. Think about the name of this systemd utility for time and date control."
+    },
+    {
+        "definition": "A systemd unit file that defines when a service should start.",
+        "answer": "timer unit",
+        "incorrectExplanation": "This systemd unit file defines when a service should start, acting like a cron job. Think about what you call this type of systemd unit."
+    },
+    {
+        "definition": "A command that displays process information in real-time mode.",
+        "answer": "top",
+        "incorrectExplanation": "This command displays process information in real-time. Think about the name of this common process monitoring tool."
+    },
+    {
+        "definition": "A command-line tool for analyzing network packets.",
+        "answer": "tshark",
+        "incorrectExplanation": "This command-line tool analyzes network packets, similar to Wireshark. Think about the name of this terminal-based shark."
+    },
+    {
+        "definition": "This file is created via the tar utility; it can contain multiple files and is uncompressed.",
+        "answer": "tar archive",
+        "incorrectExplanation": "This is a file created by the tar utility, containing multiple files, typically uncompressed by tar itself. Think about what you call such an archive."
+    },
+    {
+        "definition": "The tape archiver program, initially used to archive files and folders onto tape, but now archives them into a single file for easier storage and sharing.",
+        "answer": "tar",
+        "incorrectExplanation": "This program is a tape archiver, used for creating and extracting archives. Think about the name of this utility."
+    },
+    {
+        "definition": "A file that contains files and folders archived using the tar program. It may be compressed with a compression utility as well.",
+        "answer": "tarball",
+        "incorrectExplanation": "This is a file archived with tar, possibly compressed. Think about the common term for such an archive."
+    },
+    {
+        "definition": "A systemd unit that groups related unit files to start or stop at the same time.",
+        "answer": "target unit files",
+        "incorrectExplanation": "These systemd units group other units for simultaneous start/stop. Think about what 'target' implies in systemd."
+    },
+    {
+        "definition": "In the iptables service, this is the actual rule, such as reject, applied to the identified packets.",
+        "answer": "target",
+        "incorrectExplanation": "In iptables, this specifies the action to take on a packet. Think about what you call the destination or action for a rule."
+    },
+    {
+        "definition": "A command-line tool for monitoring network packets.",
+        "answer": "tcpdump",
+        "incorrectExplanation": "This command-line tool monitors network packets. Think about its name related to TCP and dumping packet information."
+    },
+    {
+        "definition": "A program used by the SysVinit startup method for changing the current runlevel of the system.",
+        "answer": "telinit",
+        "incorrectExplanation": "This SysVinit program changes the runlevel. Think about its name related to telling init to change state."
+    },
+    {
+        "definition": "A systemd unit file that defines where a storage device should be mounted in the virtual directory.",
+        "answer": "systemd mount unit",
+        "incorrectExplanation": "This systemd unit file defines how a storage device is mounted. Think about the type of unit specific to mounting."
+    },
+    {
+        "definition": "This entity is a systemd method defined service, service group, or action.",
+        "answer": "systemd unit",
+        "incorrectExplanation": "This is a fundamental component in systemd, defining services or actions. Think about the general term for these components."
+    },
+    {
+        "definition": "A modern program for managing services on the system.",
+        "answer": "systemd",
+        "incorrectExplanation": "This is a modern init system and service manager. Think about its name."
+    },
+    {
+        "definition": "Part of the systemd service, it performs logging functions using a journaling method.",
+        "answer": "systemd-journald",
+        "incorrectExplanation": "This component of systemd handles logging via journaling. Think about its name."
+    },
+    {
+        "definition": "A de facto Unix and Linux protocol for storing event messages.",
+        "answer": "syslog",
+        "incorrectExplanation": "This is a standard protocol for system logging. Think about its name."
+    },
+    {
+        "definition": "An updated syslog program for Linux.",
+        "answer": "syslogd-ng",
+        "incorrectExplanation": "This is an updated version of the syslog daemon, often meaning 'next generation'. Think about its name."
+    },
+    {
+        "definition": "A command-line command that allows users to run applications as another user account on the system.",
+        "answer": "su",
+        "incorrectExplanation": "This command allows switching users. Think about its abbreviation for 'substitute user' or 'switch user'."
+    },
+    {
+        "definition": "A command-line command that allows users to run commands with root privileges.",
+        "answer": "sudo",
+        "incorrectExplanation": "This command allows running commands with elevated privileges. Think about its abbreviation for 'superuser do'."
+    },
+    {
+        "definition": "A command-line command that opens the specified file in an editor using the root account privileges.",
+        "answer": "sudoedit",
+        "incorrectExplanation": "This command securely edits files with root privileges. Think about its name, combining sudo and edit."
+    },
+    {
+        "definition": "A command-line command that sets the access control list (ACL) permissions for a file or directory.",
+        "answer": "setfacl",
+        "incorrectExplanation": "This command sets file access control lists. Think about its name related to setting FACLs."
+    },
+    {
+        "definition": "A faster syslog program for Linux.",
+        "answer": "rsyslog",
+        "incorrectExplanation": "This is an enhanced syslog daemon, 'r' often implying 'reliable' or 'rocket'. Think about its name."
+    },
+    {
+        "definition": "The SysVinit method of logging events on the server and accepting log events from remote servers.",
+        "answer": "rsyslogd",
+        "incorrectExplanation": "This is the daemon form of rsyslog for SysVinit logging. Think about the daemon suffix."
+    },
+    {
+        "definition": "A program that displays the current operating state (runlevel) of the system, such as single-user mode, graphical mode, or network mode.",
+        "answer": "runlevel",
+        "incorrectExplanation": "This program displays the system's current operational state. Think about its name."
+    },
+    {
+        "definition": "Used by hashing algorithms, this random data is added to the input data to protect the resulting message digest from particular malicious attacks.",
+        "answer": "salt",
+        "incorrectExplanation": "This random data is added during hashing to enhance security. Think about what this additive is called in cryptography."
+    },
+    {
+        "definition": "The resulting message digest when hashing algorithms add random data to the input data in order to protect the resulting message digest.",
+        "answer": "salted hash",
+        "incorrectExplanation": "This is a hash value that has been strengthened using salt. Think about the term."
+    },
+    {
+        "definition": "The Linux implementation of SMB that allows Linux servers and workstations to communicate with Windows servers and workstations.",
+        "answer": "Samba",
+        "incorrectExplanation": "This is the Linux implementation of the SMB/CIFS protocol. Think about its well-known name."
+    },
+    {
+        "definition": "A specialized Linux distribution created to run in memory and that contains disk repair utilities.",
+        "answer": "rescue disk",
+        "incorrectExplanation": "This is a bootable disk with utilities for system recovery. Think about its purpose."
+    },
+    {
+        "definition": "A utility in the e2fsprog package for resizing text filesystems.",
+        "answer": "resize2fs",
+        "incorrectExplanation": "This utility resizes ext2/3/4 filesystems. Think about its name related to resizing ext filesystems."
+    },
+    {
+        "definition": "A data storage method that utilizes disk striping to spread data across multiple drives to increase performance.",
+        "answer": "RAID-0",
+        "incorrectExplanation": "This RAID level uses striping for performance without redundancy. Think about the number associated with this level."
+    },
+    {
+        "definition": "A data storage method that utilizes mirroring by duplicating data across two drives.",
+        "answer": "RAID-1",
+        "incorrectExplanation": "This RAID level uses mirroring for redundancy. Think about the number associated with this level."
+    },
+    {
+        "definition": "A data storage method that utilizes mirroring and striping of data across multiple drives.",
+        "answer": "RAID-10",
+        "incorrectExplanation": "This RAID level combines mirroring and striping (RAID 1+0). Think about the number associated with this level."
+    },
+    {
+        "definition": "A data storage method that utilizes striping with a parity bit on a separate drive, allowing the system to recover if a single data drive fails.",
+        "answer": "RAID-4",
+        "incorrectExplanation": "This RAID level uses striping with a dedicated parity drive. Think about the number associated with this level."
+    },
+    {
+        "definition": "A data storage method that utilizes data striping with distributed parity, allowing the system to recover if any of the drives fails.",
+        "answer": "RAID-5",
+        "incorrectExplanation": "This RAID level uses striping with distributed parity. Think about the number associated with this level."
+    },
+    {
+        "definition": "A data storage method that utilizes striping with double parity, allowing the system to recover if two drives fail.",
+        "answer": "RAID-6",
+        "incorrectExplanation": "This RAID level uses striping with dual parity for increased redundancy. Think about the number associated with this level."
+    },
+    {
+        "definition": "A command-line tool for testing connectivity to remote systems using the IPv4 protocol.",
+        "answer": "ping",
+        "incorrectExplanation": "This common tool tests network connectivity using ICMP echo requests (IPv4). Think about its name."
+    },
+    {
+        "definition": "A command-line tool for testing connectivity to remote systems using the IPv6 protocol.",
+        "answer": "ping6",
+        "incorrectExplanation": "This tool tests network connectivity using ICMPv6 echo requests. Think about its name, differentiating it for IPv6."
+    },
+    {
+        "definition": "The process of sending the output results of a command as the input data to another command.",
+        "answer": "piping",
+        "incorrectExplanation": "This process connects the output of one command to the input of another. Think about the shell operator used for this."
+    },
+    {
+        "definition": "A command-line command that sends Linux process signals to a running process by its process name.",
+        "answer": "pkill",
+        "incorrectExplanation": "This command sends signals to processes based on their name. Think about its name, combining 'process' and 'kill'."
+    },
+    {
+        "definition": "An interactive tool for displaying DNS hostnames and IP address information.",
+        "answer": "nslookup",
+        "incorrectExplanation": "This tool queries DNS servers for name server information. Think about its name related to 'name server lookup'."
+    },
+    {
+        "definition": "New Technology File System, the filesystem used by Microsoft workstations and servers.",
+        "answer": "NTFS",
+        "incorrectExplanation": "This is Microsoft's primary modern filesystem. Think about its acronym."
+    },
+    {
+        "definition": "A Linux application that implements NTP for setting the time on a Linux server or workstation.",
+        "answer": "ntpd",
+        "incorrectExplanation": "This daemon implements the Network Time Protocol. Think about its name, 'NTP daemon'."
+    },
+    {
+        "definition": "An open source application for communicating using NFS to mount folders on remote servers",
+        "answer": "nfs-utils",
+        "incorrectExplanation": "This package provides utilities for Network File System (NFS) clients and servers. Think about its name."
+    },
+    {
+        "definition": "An advanced web server application that supports load balancing, web proxy, and many simultaneous connections.",
+        "answer": "nginx",
+        "incorrectExplanation": "This is a high-performance web server and reverse proxy. Think about its well-known name."
+    },
+    {
+        "definition": "A command-line command that allows you to start an application with a specified priority level.",
+        "answer": "nice",
+        "incorrectExplanation": "This command modifies the scheduling priority of a process. Think about its name related to being 'nice' to other processes."
+    },
+    {
+        "definition": "A Linux application that implements NIS authentication on a Linux system.",
+        "answer": "nis-utils",
+        "incorrectExplanation": "This package provides utilities for Network Information Service (NIS). Think about its name."
+    },
+    {
+        "definition": "A command-line tool for defining network interface settings.",
+        "answer": "nmcli",
+        "incorrectExplanation": "This is the command-line interface for NetworkManager. Think about its name."
+    },
+    {
+        "definition": "A text-based menu tool for defining network interface settings.",
+        "answer": "nmtui",
+        "incorrectExplanation": "This is the text user interface for NetworkManager. Think about its name."
+    },
+    {
+        "definition": "A shell command that intercepts signals sent to a running process.",
+        "answer": "nohup",
+        "incorrectExplanation": "This command allows a process to continue running even after the user logs out by ignoring the HUP signal. Think about 'no hang up'."
+    },
+    {
+        "definition": "A command-line program for sending and receiving data across the network.",
+        "answer": "nc",
+        "incorrectExplanation": "This versatile networking utility is often called the 'Swiss army knife' for TCP/IP. Think about its short name, often 'netcat'."
+    },
+    {
+        "definition": "A Linux application that allows a Linux server to query network devices using SNMP.",
+        "answer": "net-snmp",
+        "incorrectExplanation": "This suite of applications implements and uses the Simple Network Management Protocol. Think about its name."
+    },
+    {
+        "definition": "A legacy open source collection of command-line tools for displaying and managing network configuration settings.",
+        "answer": "net-tools",
+        "incorrectExplanation": "This is a collection of older networking utilities like ifconfig and netstat. Think about its name."
+    },
+    {
+        "definition": "This software is embedded in the Linux kernel and provides code hooks into the kernel, which allow other packages to implement firewall technologies.",
+        "answer": "netfilter",
+        "incorrectExplanation": "This is the Linux kernel framework for packet filtering and NAT. Think about its name related to network filtering."
+    },
+    {
+        "definition": "A Linux command for displaying open network ports on the system, as well as network statistics.",
+        "answer": "netstat",
+        "incorrectExplanation": "This command displays network connections, routing tables, interface statistics, etc. Think about 'network statistics'."
+    },
+    {
+        "definition": "A background process that monitors connections for multipath storage devices.",
+        "answer": "multipathd",
+        "incorrectExplanation": "This daemon manages multipath I/O for storage devices. Think about its name, 'multipath daemon'."
+    },
+    {
+        "definition": "A directory within the virtual directory used as a pointer to a filesystem created on a partition.",
+        "answer": "mount points",
+        "incorrectExplanation": "This is a directory where a filesystem is attached (mounted). Think about the term."
+    },
+    {
+        "definition": "A command-line utility for mounting partitions within the virtual directory structure at a mount point.",
+        "answer": "mount",
+        "incorrectExplanation": "This command attaches filesystems to the directory tree. Think about its name."
+    },
+    {
+        "definition": "The process of adding the filesystem contained on a partition to the Linux system's virtual directory structure.",
+        "answer": "mounting",
+        "incorrectExplanation": "This is the act of making a filesystem accessible. Think about the verb form of 'mount'."
+    },
+    {
+        "definition": "An option of the make script that installs a compiled application executable file and any documentation files.",
+        "answer": "make install",
+        "incorrectExplanation": "This common 'make' target copies compiled files to their final destinations. Think about the two words involved."
+    },
+    {
+        "definition": "A script that helps compile source code, header files, and library files in the correct order.",
+        "answer": "make",
+        "incorrectExplanation": "This utility automates the build process from source code using a Makefile. Think about its name."
+    },
+    {
+        "definition": "A Linux command-line command for displaying information about block devices connected to the system.",
+        "answer": "lsblk",
+        "incorrectExplanation": "This command lists block devices. Think about 'list block'."
+    },
+    {
+        "definition": "A Linux command-line command for displaying device information.",
+        "answer": "lsdev",
+        "incorrectExplanation": "This command lists devices. Think about 'list devices'."
+    },
+    {
+        "definition": "A Linux command-line command for displaying information about PCI devices connected to the system.",
+        "answer": "lspci",
+        "incorrectExplanation": "This command lists PCI devices. Think about 'list PCI'."
+    },
+    {
+        "definition": "A Linux command-line command for displaying information about USB devices connected to the system.",
+        "answer": "lsusb",
+        "incorrectExplanation": "This command lists USB devices. Think about 'list USB'."
+    },
+    {
+        "definition": "A command-line utility that creates logical volumes.",
+        "answer": "lvcreate",
+        "incorrectExplanation": "This LVM command creates logical volumes. Think about 'logical volume create'."
+    },
+    {
+        "definition": "A command that displays Linux localization environment variables and their values.",
+        "answer": "locale",
+        "incorrectExplanation": "This command displays information about the current locale settings. Think about its name."
+    },
+    {
+        "definition": "A command that displays and sets current localization settings in a system environment.",
+        "answer": "localectl",
+        "incorrectExplanation": "This systemd utility controls system locale and keyboard layout settings. Think about 'locale control'."
+    },
+    {
+        "definition": "An environment variable that sets the language, country, and character set along with the LANG environment variable in some Linux systems.",
+        "answer": "LC_ALL",
+        "incorrectExplanation": "This environment variable overrides all other LC_* locale settings. Think about its name indicating it covers 'all' locale categories."
+    },
+    {
+        "definition": "A program that determines any library dependencies required for an executable file.",
+        "answer": "ldd",
+        "incorrectExplanation": "This program lists dynamic dependencies of executables or shared libraries. Think about 'list dynamic dependencies'."
+    },
+    {
+        "definition": "A command-line command that sends Linux process signals to a running process by its process ID number.",
+        "answer": "kill",
+        "incorrectExplanation": "This command sends signals to processes, often to terminate them, using their PID. Think about its name."
+    },
+    {
+        "definition": "A utility that configures multipath access to storage devices.",
+        "answer": "kpartx",
+        "incorrectExplanation": "This utility creates device maps from partition tables, often used with loop devices or multipath. Think about its name possibly related to kernel and partitions."
+    },
+    {
+        "definition": "A part of the systemd-journald application used to read journal files.",
+        "answer": "journalctl",
+        "incorrectExplanation": "This command queries and displays messages from the systemd journal. Think about 'journal control'."
+    },
+    {
+        "definition": "The systemd method of logging events on the server and accepting log events from remote servers.",
+        "answer": "journald",
+        "incorrectExplanation": "This is the systemd daemon that collects and stores log data. Think about 'journal daemon'."
+    },
+    {
+        "definition": "A filesystem method that logs transactions separately so that any uncommitted transactions can be recovered in case of a system crash.",
+        "answer": "journaling",
+        "incorrectExplanation": "This filesystem feature improves reliability by recording changes before they are made. Think about the term."
+    },
+    {
+        "definition": "A utility that displays a real-time chart of drive statistics based on partitions.",
+        "answer": "iostat",
+        "incorrectExplanation": "This utility reports CPU statistics and input/output statistics for devices and partitions. Think about 'I/O statistics'."
+    },
+    {
+        "definition": "A Linux command for displaying or setting IP network information on a network interface.",
+        "answer": "ip command",
+        "incorrectExplanation": "This modern command suite replaces older tools like ifconfig and route. Think about its primary focus on 'IP'."
+    },
+    {
+        "definition": "An open source collection of command-line tools for displaying and managing network configuration settings.",
+        "answer": "iproute2",
+        "incorrectExplanation": "This is the package that contains the 'ip' command and other related networking utilities. Think about its name."
+    },
+    {
+        "definition": "A named set of IP addresses, network interfaces, ports, MAC addresses, or subnets. They allow easy management of the groupings through firewalls and any other application that supports IPsets.",
+        "answer": "IPset",
+        "incorrectExplanation": "This framework manages sets of IP addresses, networks, etc., often used with iptables. Think about 'IP set'."
+    },
+    {
+        "definition": "Command that checks the result of a single test against an object.",
+        "answer": "if-then statement",
+        "incorrectExplanation": "This is a fundamental conditional control flow structure in scripting. Think about its components."
+    },
+    {
+        "definition": "A Linux command for displaying or setting the network address information for a network interface.",
+        "answer": "ifconfig",
+        "incorrectExplanation": "This legacy command configures network interfaces. Think about 'interface configuration'."
+    },
+    {
+        "definition": "This virtual adapter configuration connects to a virtual network contained within the virtual machine's host system, and there is no connection to the external network.",
+        "answer": "host-only",
+        "incorrectExplanation": "This type of virtual network adapter restricts communication to the host and other VMs on the same host. Think about its name."
+    },
+    {
+        "definition": "A command-line command that displays process information in real-time mode; more advanced than the top command.",
+        "answer": "htop",
+        "incorrectExplanation": "This is an interactive process viewer, an alternative to 'top'. Think about its name, perhaps 'Hisham's top'."
+    },
+    {
+        "definition": "An open source application for implementing load balancing in Linux.",
+        "answer": "HAProxy",
+        "incorrectExplanation": "This is a popular high-availability load balancer and proxy server. Think about its name related to 'High Availability Proxy'."
+    },
+    {
+        "definition": "A program that decompresses a file compressed using the gzip program.",
+        "answer": "gunzip",
+        "incorrectExplanation": "This program decompresses files compressed with gzip. Think about 'GNU unzip'."
+    },
+    {
+        "definition": "A program that compresses files to make them smaller and easier to transfer.",
+        "answer": "gzip",
+        "incorrectExplanation": "This program compresses files using Lempel-Ziv coding (LZ77). Think about 'GNU zip'."
+    },
+    {
+        "definition": "A utility that allows you to partition GUID Partition Table (GPT) drives.",
+        "answer": "gdisk",
+        "incorrectExplanation": "This is a text-mode partitioning tool for GPT disks, similar to fdisk. Think about 'GPT fdisk'."
+    },
+    {
+        "definition": "An application container format commonly used in Red Hat-based Linux distributions.",
+        "answer": "flatpak",
+        "incorrectExplanation": "This is a system for building, distributing, and running sandboxed desktop applications on Linux. Think about its name."
+    },
+    {
+        "definition": "A utility to display the input/output operations per second (IOPS), along with other performance data, for a storage device.",
+        "answer": "fio",
+        "incorrectExplanation": "This is a flexible I/O tester. Think about 'Flexible I/O Tester'."
+    },
+    {
+        "definition": "A utility that allows you to partition MBR drives.",
+        "answer": "fdisk",
+        "incorrectExplanation": "This classic command-line utility manipulates disk partition tables (primarily MBR). Think about 'fixed disk' or 'format disk'."
+    },
+    {
+        "definition": "A shell command that restarts a paused job in foreground mode.",
+        "answer": "fg",
+        "incorrectExplanation": "This shell command brings a background or stopped job to the foreground. Think about 'foreground'."
+    },
+    {
+        "definition": "The third version of the original Linux ext filesystem. It provides journaling capabilities for minimizing data loss after a server crash.",
+        "answer": "ext3",
+        "incorrectExplanation": "This is an extended filesystem, version 3, with journaling. Think about its name."
+    },
+    {
+        "definition": "The current version of the original Linux ext filesystem. It incorporates journaling and additional performance enhancements.",
+        "answer": "ext4",
+        "incorrectExplanation": "This is an extended filesystem, version 4, with further improvements over ext3. Think about its name."
+    },
+    {
+        "definition": "A Linux command that displays or sets Ethernet parameters on a network interface.",
+        "answer": "ethtool",
+        "incorrectExplanation": "This utility displays and changes settings of Ethernet card. Think about 'Ethernet tool'."
+    },
+    {
+        "definition": "A utility in the e2fsprogs package that allows you to modify the label assigned to a partition formatted with the ext filesystem.",
+        "answer": "e2label",
+        "incorrectExplanation": "This utility manages labels on ext2/3/4 filesystems. Think about 'ext2 label'."
+    },
+    {
+        "definition": "A command that allows you to send text to the standard output.",
+        "answer": "echo",
+        "incorrectExplanation": "This command displays a line of text. Think about its name, like an echo."
+    },
+    {
+        "definition": "A Linux filesystem that supports real-time file encryption.",
+        "answer": "ecryptfs",
+        "incorrectExplanation": "This is a stacked cryptographic filesystem for Linux. Think about 'enterprise cryptographic filesystem'."
+    },
+    {
+        "definition": "A program that installs, updates or removes DEB packages in a Debian-based package management system.",
+        "answer": "dpkg",
+        "incorrectExplanation": "This is the low-level package manager for Debian-based systems. Think about 'Debian package'."
+    },
+    {
+        "definition": "A utility that displays the current files and space used by directories in the virtual directory structure.",
+        "answer": "du",
+        "incorrectExplanation": "This command estimates file space usage. Think about 'disk usage'."
+    },
+    {
+        "definition": "A Linux command that displays DNS records for servers in a domain.",
+        "answer": "dig",
+        "incorrectExplanation": "This DNS lookup utility provides detailed information. Think about 'Domain Information Groper'."
+    },
+    {
+        "definition": "A utility for displaying the utilization of drive partitions currently mounted on the Linux system.",
+        "answer": "df",
+        "incorrectExplanation": "This command reports file system disk space usage. Think about 'disk free'."
+    },
+    {
+        "definition": "A Linux application that allows a Linux client to obtain an IP address using DHCP from a DHCP server.",
+        "answer": "dhclient",
+        "incorrectExplanation": "This is a DHCP client program. Think about 'DHCP client'."
+    },
+    {
+        "definition": "A Linux application that allows a Linux server to be a DHCP server for a local network.",
+        "answer": "DHCPd",
+        "incorrectExplanation": "This is a DHCP server daemon. Think about 'DHCP daemon'."
+    },
+    {
+        "definition": "A command-line program that displays or sets the system time and date.",
+        "answer": "date",
+        "incorrectExplanation": "This command displays or sets the system date and time. Think about its straightforward name."
+    },
+    {
+        "definition": "A utility in the e2fsprogs package that allows you to manually view and modify a filesystem structure.",
+        "answer": "debugfs",
+        "incorrectExplanation": "This utility is an interactive filesystem debugger for ext2/3/4 filesystems. Think about 'debug filesystem'."
+    },
+    {
+        "definition": "A shell command that allows you to schedule jobs to run on a regular basis.",
+        "answer": "cron",
+        "incorrectExplanation": "This is the time-based job scheduler in Unix-like systems. Think about its name related to 'chronos' (time)."
+    },
+    {
+        "definition": "A shell command that allows you to view or modify the cron table to schedule jobs.",
+        "answer": "crontab",
+        "incorrectExplanation": "This command manages cron jobs for individual users. Think about 'cron table'."
+    },
+    {
+        "definition": "A command-line program that can use multiple protocols for downloading files from remote hosts.",
+        "answer": "CURL",
+        "incorrectExplanation": "This is a command-line tool for transferring data with URLs. Think about 'Client URL'."
+    },
+    {
+        "definition": "Program used by the SysVinit startup method for managing the start and stop runlevels for services.",
+        "answer": "chkconfig",
+        "incorrectExplanation": "This SysVinit utility manages runlevel information for system services. Think about 'check configuration'."
+    },
+    {
+        "definition": "A command-line command that allows the system administrator to change the permissions assigned to a file or directory.",
+        "answer": "chmod",
+        "incorrectExplanation": "This command changes file mode bits (permissions). Think about 'change mode'."
+    },
+    {
+        "definition": "A command-line command that allows the system administrator to change the owner of a file or directory.",
+        "answer": "chown",
+        "incorrectExplanation": "This command changes file owner and group. Think about 'change owner'."
+    },
+    {
+        "definition": "A utility in the e2fsprogs package that allows you to change attributes of files.",
+        "answer": "chattr",
+        "incorrectExplanation": "This command changes file attributes on a Linux second extended file system. Think about 'change attributes'."
+    },
+    {
+        "definition": "A command-line command that allows the owner or system administrator to change the group assigned to a file or directory.",
+        "answer": "chgrp",
+        "incorrectExplanation": "This command changes the group ownership of files. Think about 'change group'."
+    },
+    {
+        "definition": "A shell command that allows you to schedule a job to run at a specific time.",
+        "answer": "at",
+        "incorrectExplanation": "This command schedules commands to be executed once, at a particular time in the future. Think about its short name."
+    },
+    {
+        "definition": "A shell command that allows you to view jobs waiting to run in the shell.",
+        "answer": "atq",
+        "incorrectExplanation": "This command lists the user's pending jobs scheduled with 'at'. Think about 'at queue'."
+    }
+]
