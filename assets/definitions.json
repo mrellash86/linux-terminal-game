@@ -5,7 +5,7 @@
         "incorrectExplanation": "This is a file that sets the time zone for Red Hat-based Linux systems. Think about the name of this specific timezone configuration file."
     },
     {
-        "definition": "A dynamic file that identifies the currently mounted partitions on the Linux system.",
+        "definition": "A PARTIALY kernel-generated , dynamic file that identifies the currently mounted partitions on the Linux system.It serves as a reference for system utilities like mount and umount to manage mounted volumes.",
         "answer": "/etc/mtab",
         "incorrectExplanation": "This is a dynamic file identifying currently mounted partitions. Think about the name of this mount table file."
     },
@@ -20,12 +20,12 @@
         "incorrectExplanation": "This is a kernel-generated file with information on mounted partitions and their virtual directory locations. Think about the name of this proc filesystem entry."
     },
     {
-        "definition": "A kernel-generated file that contains information about the currently mounted partitions on the Linux system.",
+        "definition": "A FULLY kernel-generated file that contains information about the current partitions on the Linux system.",
         "answer": "/proc/partitions",
         "incorrectExplanation": "This is a kernel-generated file with information on mounted partitions. Think about the name of this proc filesystem entry detailing partitions."
     },
     {
-        "definition": "A kernel-generated file that contains information about the block devices on the Linux system, including any mounted partitions.",
+        "definition": "A kernel-generated file that contains information about the block devices on the Linux system, including any mounted partitions with  partition storage details like size, partitions, and I/O statistics.",
         "answer": "/sys/block",
         "incorrectExplanation": "This is a kernel-generated file with information about block devices. Think about the name of this sysfs directory related to block devices."
     },
@@ -50,17 +50,17 @@
         "incorrectExplanation": "This program installs, updates, or removes packages in a Debian-based system. Think about the name of this command-line tool for apt."
     },
     {
-        "definition": "The file extension used to identify package files following the Debian-based package management format.",
+        "definition": "The file extension used to identify package files following the Debian-based package management format and functions similarly to Windows .exe installers but is specifically designed for Linux package management..",
         "answer": ".deb",
         "incorrectExplanation": "This is the file extension for Debian package files. Think about what you call files with this extension."
     },
     {
-        "definition": "The file extension used to identify files that have been archived using the tar program and compressed using the gzip program.",
+        "definition": "The file extension used to identify files that have been archived using the tar program and compressed using the gzip program. It is also similar to .tar.gz.",
         "answer": ".tgz",
         "incorrectExplanation": "This file extension identifies files archived with tar and compressed with gzip. Think about what you call files with this extension, also known as .tar.gz."
     },
     {
-        "definition": "A folder that contains persistent links to storage device partitions based on their manufacturer information.",
+        "definition": "A folder that manages persistent links to storage device partitions based on their manufacturer information (hardware serial numbers).",
         "answer": "/dev/disk/by-id",
         "incorrectExplanation": "This folder contains persistent links to storage partitions based on manufacturer ID. Think about the path used for identifying disks by their hardware ID."
     },
@@ -70,17 +70,17 @@
         "incorrectExplanation": "This folder contains persistent links to storage partitions based on their label. Think about the path used for identifying disks by their assigned label."
     },
     {
-        "definition": "A folder that contains persistent links to storage device partitions based on their hardware connection.",
+        "definition": "A folder that contains persistent links to storage device partitions based on their hardware physical connection.",
         "answer": "/dev/disk/by-path",
         "incorrectExplanation": "This folder contains persistent links to storage partitions based on their hardware connection path. Think about the path used for identifying disks by their physical connection path."
     },
     {
-        "definition": "A folder that contains persistent links to storage device partitions based on their universal unique identifier.",
+        "definition": "A folder that contains persistent links to storage device partitions based on their UNIVERSAL UNIQUE IDENTIFIER.",
         "answer": "/dev/disk/by-uuid",
         "incorrectExplanation": "This folder contains persistent links to storage partitions based on their UUID. Think about the path used for identifying disks by their universally unique identifier."
     },
     {
-        "definition": "A folder that contains raw device files that point to dynamic and virtual partitions created by LVM and multipath.",
+        "definition": "A folder that contains device-mapped, raw device files that point to logical dynamic and virtual partitions created/managed by LVM (Logical Volume Manager) and multipath io.  This is usually used when high performance is required and can also be used to represent logical Raid Arrays ",
         "answer": "/dev/mapper",
         "incorrectExplanation": "This folder contains device files for LVM and multipath virtual partitions. Think about the directory name for these mapped devices."
     },
