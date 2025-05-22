@@ -11,7 +11,7 @@
     },
     {
         "definition": "A file that sets the time zone for Debian-based Linux systems.",
-        "answer": "/etc/timezone",
+        "answer": "/etc/timezone",        
         "incorrectExplanation": "This is a file that sets the time zone for Debian-based Linux systems. Think about the name of this timezone configuration file for Debian systems."
     },
     {
